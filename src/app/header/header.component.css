@@ -1,0 +1,22 @@
+.header {
+  background-color: blueviolet;
+  height: 100%;
+}
+.logo {
+  margin: 5px 0px 0px 25px;
+}
+.help {
+  position: relative;
+  margin: 535px 0px 0px 30px;
+}
+.login {
+  margin: 10px 0px 0px 30px;
+}
+.loginName {
+  margin: 0px 0px 4px 30px;
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

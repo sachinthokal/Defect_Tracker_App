@@ -1,0 +1,23 @@
+div,
+col {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.pathway {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 5px;
+}
+.user {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: right;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 5px;
+}

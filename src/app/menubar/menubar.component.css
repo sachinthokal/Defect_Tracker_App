@@ -1,0 +1,27 @@
+.menubar {
+  /* border-right: 1px solid black; */
+  background-color: beige;
+  height: 100%;
+}
+.logo,
+h4 {
+  margin: auto;
+  margin-top: 6px;
+  font-weight: bold;
+  text-shadow: 1px 2px 5px blueviolet;
+  font-size: larger;
+}
+.set-of-links,
+a {
+  margin: auto;
+  text-decoration: none;
+  margin-top: 50px;
+  color: black;
+}
+.link {
+  margin: 10px 0px 0px 2px;
+}
+img {
+  padding: 2px;
+  margin-right: 5px;
+}
