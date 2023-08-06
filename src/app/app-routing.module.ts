@@ -11,8 +11,9 @@ import { ReviewIssueComponent } from './review-issue/review-issue.component';
 import { SelectIssueComponent } from './select-issue/select-issue.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
-    path: '',
+    path: 'home',
     component: HomeComponent,
   },
   {

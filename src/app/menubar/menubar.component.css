@@ -6,9 +6,9 @@
 .logo,
 h4 {
   margin: auto;
-  margin-top: 6px;
+  margin-top: 15px;
   font-weight: bold;
-  text-shadow: 1px 2px 5px blueviolet;
+  text-shadow: 1px 2px 5px rgb(74, 74, 74);
   font-size: larger;
 }
 .set-of-links,

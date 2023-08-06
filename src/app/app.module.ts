@@ -16,6 +16,7 @@ import { CreateIssueComponent } from './create-issue/create-issue.component';
 import { ReviewIssueComponent } from './review-issue/review-issue.component';
 import { SelectIssueComponent } from './select-issue/select-issue.component';
 import { PathComponent } from './path/path.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,14 +32,10 @@ import { PathComponent } from './path/path.component';
     CreateIssueComponent,
     ReviewIssueComponent,
     SelectIssueComponent,
-    PathComponent
+    PathComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

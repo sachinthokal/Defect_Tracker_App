@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-path',
@@ -8,6 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class PathComponent implements OnInit {
   path = 'Home / Login';
   userName = 'Guest';
-  constructor() {}
+  constructor(private route: Router) {}
   ngOnInit(): void {}
 }

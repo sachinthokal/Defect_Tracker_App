@@ -1,0 +1,31 @@
+.card1 {
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+.title {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 1px 3px 5px black;
+  margin-top: 10px;
+}
+label {
+  color: black;
+  font-weight: bold;
+}
+button {
+  margin-bottom: 15px;
+}
+.link-primary,
+a {
+  text-decoration: none;
+  text-align: start;
+  font-size: small;
+}
+.link-secondary {
+  text-decoration: none;
+  text-align: end;
+}
+.card2 {
+  background-color: blueviolet;
+}

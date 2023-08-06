@@ -1,0 +1,22 @@
+.card1 {
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+.title,
+h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-shadow: 1px 1px 3px black;
+  margin-top: 10px;
+}
+textarea {
+  height: 206px;
+}
+label {
+  color: black;
+  font-size: small;
+  font-weight: bold;
+}
+button {
+  margin-bottom: 15px;
+}
